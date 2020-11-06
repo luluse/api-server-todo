@@ -24,7 +24,10 @@ An Express/Node.js based server designed to be a “model agnostic” REST API s
 ## Setup
 
 1. Clone down this repo locally
-2. Use Postman or HTTPie to perform CRUD operations on data models
+2. Run `npm i` in root directory
+3. Add `.env` file with following setup: `PORT=` and `MONGODB_URI=`
+4. In one terminal turn on server using `node .` or `node index.js`
+5. Use Postman or HTTPie in another terminal to perform CRUD operations on data models
 
 ### Products Schema:
 
